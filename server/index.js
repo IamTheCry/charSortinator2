@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => res.send('./client/index.html'))
+
+app.use(express.static('./client'))
+app.get('/', (req, res) => res.send('index.html'))
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'));
