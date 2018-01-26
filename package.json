@@ -1,0 +1,22 @@
+{
+  "name": "charsortinator2",
+  "version": "1.0.0",
+  "description": "Another string sorter",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamTheCry/charSortinator2.git"
+  },
+  "author": "Corey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamTheCry/charSortinator2/issues"
+  },
+  "homepage": "https://github.com/IamTheCry/charSortinator2#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
